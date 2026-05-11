@@ -10,6 +10,7 @@ import com.tuapp.gastos.screens.LoginScreen
 import com.tuapp.gastos.screens.RegisterScreen
 import com.tuapp.gastos.screens.AddExpenseScreen
 import com.tuapp.gastos.screens.HistoryScreen
+import com.tuapp.gastos.screens.AboutScreen
 
 @Composable
 fun AppNavigation() {
@@ -71,6 +72,9 @@ fun AppNavigation() {
                 },
                 onGoToHistory = {
                     navController.navigate(Routes.HISTORY)
+                },
+                onGoToAbout = {
+                    navController.navigate(Routes.ABOUT)
                 }
             )
         }
@@ -85,6 +89,14 @@ fun AppNavigation() {
 
         composable(Routes.HISTORY) {
             HistoryScreen(
+                onBack = {
+                    navController.popBackStack()
+                }
+            )
+        }
+
+        composable(Routes.ABOUT) {
+            AboutScreen(
                 onBack = {
                     navController.popBackStack()
                 }

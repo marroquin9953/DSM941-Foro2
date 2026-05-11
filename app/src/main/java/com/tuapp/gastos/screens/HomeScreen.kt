@@ -13,6 +13,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.DateRange
+import androidx.compose.material.icons.filled.Info
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
@@ -50,7 +51,8 @@ import com.tuapp.gastos.ui.theme.AppTextSecondary
 fun HomeScreen(
     onLogout: () -> Unit,
     onGoToAddExpense: () -> Unit,
-    onGoToHistory: () -> Unit
+    onGoToHistory: () -> Unit,
+    onGoToAbout: () -> Unit
 ) {
     val auth = FirebaseAuth.getInstance()
     val db = FirebaseFirestore.getInstance()
@@ -217,6 +219,17 @@ fun HomeScreen(
                 ) {
                     Icon(Icons.Default.DateRange, contentDescription = null, modifier = Modifier.size(20.dp))
                     Text("  Ver historial de gastos")
+                }
+
+                Spacer(modifier = Modifier.height(10.dp))
+
+                FilledTonalButton(
+                    onClick = onGoToAbout,
+                    modifier = Modifier.fillMaxWidth(),
+                    shape = RoundedCornerShape(14.dp)
+                ) {
+                    Icon(Icons.Default.Info, contentDescription = null, modifier = Modifier.size(20.dp))
+                    Text("  Información del proyecto")
                 }
 
                 Spacer(modifier = Modifier.weight(1f))

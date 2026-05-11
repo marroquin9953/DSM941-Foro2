@@ -172,6 +172,14 @@ graph TD
 - Estado vacío personalizado
 - Carga asincrónica
 
+### 6. **AboutScreen** - Información del Proyecto
+- Derechos de autor
+- Información del estudiante
+- Descripción del proyecto
+- Características principales
+- Tecnologías utilizadas
+- Scroll vertical para contenido extenso
+
 ---
 
 ## 🗄️ Modelo de Datos - Firestore
@@ -201,25 +209,25 @@ graph TD
 
 | Elemento | Color | Hex |
 |---|---|---|
-| Primario | Azul | #2563EB |
-| Secundario | Verde agua | #14B8A6 |
-| Fondo | Gris claro | #F8FAFC |
+| Primario | Púrpura vibrante | #7C3AED |
+| Secundario | Rosa/Magenta | #EC4899 |
+| Fondo | Fondo muy claro púrpura | #FAF5FF |
 | Superficie | Blanco | #FFFFFF |
-| Error | Rojo | #DC2626 |
-| Éxito | Verde | #16A34A |
+| Error | Rojo vibrante | #EF4444 |
+| Éxito | Verde esmeralda | #10B981 |
 
 ### Colores por Categoría
 
 | Categoría | Color | Hex |
 |---|---|---|
-| Comida | Amarillo | #FBBF24 |
-| Transporte | Azul | #60A5FA |
-| Compras | Rosa | #F472B6 |
-| Servicios | Índigo | #818CF8 |
-| Entretenimiento | Naranja | #FB923C |
-| Salud | Verde | #34D399 |
-| Educación | Cian | #38BDF8 |
-| Otros | Gris | #94A3B8 |
+| Comida | Rojo coral | #FF6B6B |
+| Transporte | Índigo profundo | #4F46E5 |
+| Compras | Cian | #06B6D4 |
+| Servicios | Púrpura | #8B5CF6 |
+| Entretenimiento | Ámbar | #F59E0B |
+| Salud | Verde agua | #14B8A6 |
+| Educación | Rosa | #EC4899 |
+| Otros | Índigo | #6366F1 |
 
 ### Tipografía
 
