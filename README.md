@@ -4,7 +4,7 @@
 
 **Universidad:** Universidad Don Bosco  
 **Materia:** Desarrollo de Software para Móviles (DSM941)  
-**Proyecto:** Foro 1 
+**Proyecto:** Foro 2 
 **Grupo:** #3  
 **Estudiante:** Isidro Alexander Marroquín Echeverría  
 **Correo:** isidro.marroquin@udb.edu.sv  
